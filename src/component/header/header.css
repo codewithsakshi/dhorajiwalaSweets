@@ -1,0 +1,102 @@
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fas{
+  cursor: pointer;
+}
+
+.fas:hover{
+  transform: scale(1.1);
+}
+.fas:active{
+  transform: scale(0.98);
+}
+
+
+.dhorajiwala-logo{
+  width: 250px;
+  margin-top: -20px;
+  margin-left: 80px;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-no{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #AB6D23;
+}
+
+.fa-phone{
+  font-size: 40px;
+  color: #E02401;
+}
+
+.icons-container{
+  width: 280px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input {
+  background-color: #fff;
+  border: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.3s ease;
+}
+
+ .search {
+  position: relative;
+  margin-top: -5px;
+  background-color: #fff;
+  border: 0;
+} 
+
+.btn {
+  background-color: #fff;
+  color: #E02401;
+  border: 0;
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; 
+}
+
+.search.active .input {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  border: 0;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  outline: none;
+}
+
+.fa-user{
+  margin: 0 8px;
+}
+
+.fa-user, 
+.fa-shopping-cart{
+  font-size: 25px;
+  color: #E02401;
+}
