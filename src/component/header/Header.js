@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './header.css'
+import './header.scss'
 
 export default function Header() {
     const [isVisible, setIsVisible] = useState(false);
@@ -27,4 +27,3 @@ export default function Header() {
     )
 }
 
-// sakshimittal3005@gmail.com
